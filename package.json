@@ -1,0 +1,16 @@
+{
+  "name": "lyrics-overlay",
+  "version": "0.1.0",
+  "description": "Mostra sul desktop il testo della canzone in riproduzione (YouTube, Spotify, ...)",
+  "private": true,
+  "main": "dist/main/main.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json && tsc -p tsconfig.renderer.json",
+    "start": "npm run build && electron .",
+    "test": "npm run build && node dist/test/selftest.js"
+  },
+  "devDependencies": {
+    "electron": "^38.8.6",
+    "typescript": "~5.9.3"
+  }
+}

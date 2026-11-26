@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'" />
+    <title>Lyrics Overlay</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="pos-bottom idle">
+    <div id="stage">
+      <div id="glow"></div>
+      <div id="trackInfo">
+        <span id="trackTitle"></span>
+        <span id="trackArtist"></span>
+      </div>
+      <div id="viewport">
+        <div id="lines"></div>
+      </div>
+      <div id="status"></div>
+    </div>
+    <script src="../../dist/renderer/renderer.js"></script>
+  </body>
+</html>

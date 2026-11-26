@@ -1,0 +1,1 @@
+CreateObject("WScript.Shell").Run """C:\Users\lobi\Desktop\lyrics-overlay\avvia.bat""", 0, False
